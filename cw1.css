@@ -1,0 +1,20 @@
+/*page margin*/
+.margin{
+    margin:1.5% 15%;
+}
+
+/*change dimensions of search bar */
+.inputbar
+{   margin: 0 3%;
+    width:90%;}
+/*changes color of body and includes border*/
+body{
+    background-color: Purple;
+    border:1px solid gray;
+}
+/*format button*/
+.button{
+    width:100%;
+    background:yellow;
+}
+

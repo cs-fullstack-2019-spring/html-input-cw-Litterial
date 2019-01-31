@@ -1,0 +1,33 @@
+/*margins for webpage*/
+.margin{
+    margin:1.5% 25%;
+}
+
+/*moves to the left*/
+.floatleft{
+    float:left;
+    width: 50%;
+    padding:0;
+    height: 40px;
+}
+/*moves to right*/
+.floatright{
+    float: right;
+    width: 49%;
+    padding:0;
+    height:40px;
+
+}
+
+/*clears to prevent overlapping*/
+div{
+    border:1px solid black;
+    height: 70px;
+    clear:both;
+}
+
+section
+{
+    border: 1px solid black;
+    text-align: center;
+}
