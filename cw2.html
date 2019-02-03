@@ -1,3 +1,5 @@
+<!--Create a site similar to cw2.png.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,26 +8,32 @@
 </head>
 <body class = margin>
 <link rel="stylesheet" href="cw2.css">
-<section class="floatleft"> Login</section> <!--floats to left-->
+<section><button name="submit">LOGIN</button></section> <!--floats to left-->
 
-<section class = floatright>Sign up</section> <!--float to right-->
+<article ><button class="articleButton" name="submit">SIGNUP</button></article> <!--float to right-->
 
-<div>Enter your personal details to create an account</div>
+<div><nav>Enter your personal details to <nav>create an account</nav></nav></div>
 
-<div>Email</div>
+<form><nav>EMAIL    *</nav>
+<p><input class="biggerPlaceholder" placeholder="   Email" required></p>
+</form>
 
-<div>Password</div>
-
-<div>Repeat Password</div>
-
-<div>By Creating an account you agree to our terms of services
-    <button name ="submit">Create an account</button></div>
-
-<div>Create an account with Facebook
+<section><nav>PASSWORD    *</nav>
+<p><input class = "biggerPlaceholder" placeholder= "   Password" required></p>
+</section>
+<article><nav>REPEAT PASSWORD    *</nav>
+<p><input class ="otherBiggerPlaceholder" placeholder="   Repeat Password" required></p>
+</article>
+<section class="noBorder">By creating an account you agree to our <p id="red">Terms and Privacy</p>
+    </section>
+<article ><button id="accountButton" name ="submit">Create an account</button></article>
+<aside id = "fBorder" class ="f"><p>f</p></aside>
+<div id= "FButBord"class = "facebookGoogle"><button name="submit" class="faceColor">Create an account with Facebook</button>
 </div>
-<div>Create an account with Google
+<aside id = "gBorder"class="g"><p>g+
+</p></aside>
+<div id="GButBord" class= "facebookGoogle"><button name="submit" class="googleColor">Create an account with Google+</button>
 
 </div>
-
 </body>
 </html>

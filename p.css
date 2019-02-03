@@ -1,0 +1,18 @@
+body{margin: 1.5% 15%}
+div{
+    background:green;
+    border:3px solid black;
+    border-radius:3px;
+    margin-bottom:1%;
+    text-align:center;
+}
+.left{
+    float:left;
+    width:50%;
+    height: 40px;
+}
+.right{
+    height: 40px;
+    float:right
+    width:50%;
+}

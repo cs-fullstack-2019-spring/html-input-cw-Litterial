@@ -3,31 +3,208 @@
     margin:1.5% 25%;
 }
 
-/*moves to the left*/
-.floatleft{
+div,aside,article,section{    /* dimensions for div, aside and article*/
+    border:1px solid gray;
+    height: 115px;
+    text-align: center;
+    font-size: 23px;
+    padding-left: 0;
+
+}
+
+.biggerPlaceholder    /*used to fill in information for email and password*/
+ {
+     width: 100%;
+     border:none;
+     font-size: 23px;
+
+ }
+
+
+
+section     /*Section dimensions*/
+{
+    border: 1px solid gray;
+    text-align: center;
+    vertical-align: center;
     float:left;
     width: 50%;
-    padding:0;
-    height: 40px;
-}
-/*moves to right*/
-.floatright{
-    float: right;
-    width: 49%;
-    padding:0;
-    height:40px;
+    height:100px;
+    font-size: 23px;
 
 }
+section>button   /*Login button dimensions*/
+ {
+     width: 100%;
+     height:100%;
+     right:0;
+     background-color: #d1d7d7;
+     color:#a3a09c;
+     font-size: 23px;
+ }
 
-/*clears to prevent overlapping*/
-div{
-    border:1px solid black;
-    height: 70px;
-    clear:both;
-}
+article{                        /*article bug*/
 
-section
-{
-    border: 1px solid black;
+    border: 1px solid gray;
     text-align: center;
+    float:right
+    width: 50%;
+    height: 100px;
+}
+.articleButton   /*dimensions for SIGNUP button*/
+ {
+     width:49.7%;
+     height: 100px;
+     left:0;
+     background-color: white;
+     color:black;
+     font-size: 23px;
+ }
+
+nav{         /*used to change the text in "Enter personal details*/
+    position:relative;
+    top: 45%;
+    font-size: 23px;
+    color: #a19e9f;
+}
+
+
+nav>nav{                   /*used to change text in *create an account*/
+    display:inline;
+    color: #8a92b0;
+}
+
+form   /*email section*/
+ {
+     position:relative;
+     font-size: 23px;
+     border:1px solid gray;
+ }
+
+form>nav   /*email text*/
+  {
+      position: relative;
+      left: 18px;
+      top: 10px;
+      color:black;
+  }
+section>nav,article>nav   /*text for "password and repeat password*/
+   {
+       color:black;
+       top:10px;
+       left: 18px;
+       text-align: left;
+
+   }
+.otherBiggerPlaceholder  /*dimensions to fill in "Repeat password" because of bug*/
+    {
+        width: 49.7%;
+        border:none;
+        font-size: 23px;
+    }
+.noBorder   /*dimensions for terms and services message*/
+     {
+         position: relative;
+         top:25px;
+         border-top:none;
+         border-right:none;
+         border-bottom: none;
+         justify-items: center;
+         font-size: 23px;
+         color: #8c959d;
+     }
+#red    /*id to change the color of text red*/
+{
+    color: #f51937;
+    margin: 0;
+}
+
+button{         /* general button*/
+    position:relative;
+    border:none;
+    background-color: #2fc04e;
+    color:white;
+    height: 60px;
+    width: 46%;
+    right: 15px;
+    top:0;
+}
+
+
+#accountButton    /*adjustments to the button*/
+{
+    position:relative;
+    top:23px;
+    font-size: 23px;
+}
+
+
+
+aside{    /*facebook and google logos*/
+     float:left;
+    width:10%;
+    margin:0;
+ }
+
+.f{                             /*facebook logo background color*/
+    font-size: 50px;
+    background-color: #353169;
+    color: #f2f2f2;
+}
+.g                                   /*google logo background color*/
+{
+    font-size: 50px;
+    background-color: #b40b1d;
+    color:#f2f2f2;
+
+}
+aside>p {                           /*logo text color*/
+    position: relative;
+    bottom: 35px;
+}
+
+div>button{     /*create an account with google/facebook button*/
+    color:white;
+    width:89.8%;
+    height:100%;
+    right:0;
+    font-size: 23px;
+}
+
+
+.facebookGoogle{  /*floats buttons to left and makes width 90% "bug"*/
+    float:right
+    width:90%;
+}
+
+.faceColor
+{
+    background-color: #4b4498;
+}
+.googleColor
+{
+    background-color:#dd3536;
+}
+
+
+/*border colors*/
+#fBorder{
+    border-right: #353169;
+    border-bottom:#353169 ;
+}
+#gBorder
+{
+    border-top: #b40b1d;
+    border-right: #b40b1d;
+}
+#FButBord{
+    border-left: #f51937;
+    border-bottom: #f51937;
+    margin:0;
+}
+#GButBord
+{
+    border-top: #4b4498;
+    border-right: #dd3536;
+
 }
